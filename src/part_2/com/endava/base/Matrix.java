@@ -29,26 +29,42 @@ public class Matrix {
         this.matrix = matrix;
     }
 
+    public int getRows() {
+        return rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public int getColumns() {
+        return columns;
+    }
+
+    public void setColumns(int columns) {
+        this.columns = columns;
+    }
+
     public void createMatrix(int rows, int columns){
-        int tmp;
-        boolean outerFlag = true;
-        boolean innerFlag = true;
+        int randomNumber;
+        boolean numberIsNotUnique = true;
+        boolean innerFlag;
         for(int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
-                while(outerFlag) {
-                    tmp = (int) (Math.random() * (columns * rows) + 1);
-                    innerFlag = this.checkNum(tmp);
+                while(numberIsNotUnique) {
+                    randomNumber = (int) (Math.random() * (columns * rows) + 1);
+                    innerFlag = this.checkIfNumberIsUnique(randomNumber);
                     if(innerFlag) {
-                        matrix[i][j] = tmp;
-                        outerFlag = false;
+                        matrix[i][j] = randomNumber;
+                        numberIsNotUnique = false;
                     }
                 }
-                outerFlag = true;
+                numberIsNotUnique = true;
             }
         }
     }
 
-    public boolean checkNum(int number) {
+    public boolean checkIfNumberIsUnique(int number) {
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
                 if(number == this.matrix[i][j]){
@@ -62,7 +78,7 @@ public class Matrix {
     }
 
 
-    public void print(){
+    public void printMatrix(){
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
                 if(j != columns - 1)
@@ -77,7 +93,7 @@ public class Matrix {
     public void initMatrix(int rows, int columns){
         for( int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
-                this.matrix[i][j] = -1;
+                this.matrix[i][j] = 0;
             }
         }
     }

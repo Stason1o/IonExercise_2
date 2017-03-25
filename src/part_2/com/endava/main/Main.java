@@ -8,6 +8,6 @@ import part_2.com.endava.base.Matrix;
 public class Main {
     public static void main(String[] args) {
         Matrix matrix = new Matrix(4, 2);
-        matrix.print();
+        matrix.printMatrix();
     }
 }
