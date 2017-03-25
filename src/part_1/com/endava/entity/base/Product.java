@@ -1,6 +1,6 @@
-package part_1.com.endava.base;
+package part_1.com.endava.entity.base;
 
-import part_1.com.endava.enums.Status;
+import part_1.com.endava.entity.enums.Status;
 
 /**
  * Created by sbogdanschi on 21/03/2017.

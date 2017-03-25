@@ -1,4 +1,4 @@
-package part_1.com.endava.enums;
+package part_1.com.endava.entity.enums;
 
 /**
  * Created by sbogdanschi on 21/03/2017.
