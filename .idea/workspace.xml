@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f53b82-00f2-4177-a5fe-55b48bc738ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part_1/com/endava/util/BlackList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/part_1/com/endava/util/CountrySupport.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part_1/com/endava/base/Product.java" afterPath="$PROJECT_DIR$/src/part_1/com/endava/entity/base/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part_1/com/endava/base/ProductionProduct.java" afterPath="$PROJECT_DIR$/src/part_1/com/endava/entity/base/ProductionProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/part_1/com/endava/enums/Status.java" afterPath="$PROJECT_DIR$/src/part_1/com/endava/entity/enums/Status.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IonExercise_2.iml" afterPath="$PROJECT_DIR$/IonExercise_2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/part_1/com/endava/factory/OrdersFactory.java" afterPath="$PROJECT_DIR$/src/part_1/com/endava/factory/OrdersFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/part_1/com/endava/main/Main.java" afterPath="$PROJECT_DIR$/src/part_1/com/endava/main/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/part_2/com/endava/base/Matrix.java" afterPath="$PROJECT_DIR$/src/part_2/com/endava/base/Matrix.java" />
@@ -819,7 +812,7 @@
       <option name="presentableId" value="Default" />
       <updated>1490091675806</updated>
       <workItem from="1490091678730" duration="14585000" />
-      <workItem from="1490471480305" duration="4386000" />
+      <workItem from="1490471480305" duration="4431000" />
     </task>
     <task id="LOCAL-00001" summary="added Enum ProductType">
       <created>1490475754216</created>
@@ -842,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490475882789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rebased project structure">
+      <created>1490475928695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490475928695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18971000" />
+    <option name="totallyTimeSpent" value="19016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
@@ -902,7 +902,8 @@
     <MESSAGE value="added Enum ProductType" />
     <MESSAGE value="Renamed classes" />
     <MESSAGE value="Re-wrote classes using ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-wrote classes using ArrayList" />
+    <MESSAGE value="Rebased project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebased project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
